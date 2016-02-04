@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F4C731A1C62DF1400B8313A /* Wifts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4C73191C62DF1400B8313A /* Wifts.h */; };
-		8F4C731C1C62DF1400B8313A /* Wifts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C731B1C62DF1400B8313A /* Wifts.m */; };
-		8F4C73311C62DF3400B8313A /* Caramel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4C73281C62DF2800B8313A /* Caramel.framework */; };
-		8F9EFC5B1C62D98F00450266 /* WiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EFC5A1C62D98F00450266 /* WiftsTests.swift */; };
-		8F9EFC5C1C62D99300450266 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F9EFC511C62D88A00450266 /* Info.plist */; };
+		8F076B3C1C63EBBD0082E8D3 /* Wifts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F076B3B1C63EBBD0082E8D3 /* Wifts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F076B431C63EBBD0082E8D3 /* Wifts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F076B391C63EBBD0082E8D3 /* Wifts.framework */; };
+		8F076B481C63EBBD0082E8D3 /* WiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F076B471C63EBBD0082E8D3 /* WiftsTests.swift */; };
+		8F076B501C63EBDC0082E8D3 /* Caramel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4C73281C62DF2800B8313A /* Caramel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8F076B441C63EBBD0082E8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F9EFC371C62D88A00450266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F076B381C63EBBD0082E8D3;
+			remoteInfo = Wifts;
+		};
 		8F4C73271C62DF2800B8313A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8F4C73201C62DF2800B8313A /* Caramel.xcodeproj */;
@@ -43,48 +49,64 @@
 			remoteGlobalIDString = A70FF8AC1BD59C7C00DABB71;
 			remoteInfo = TestIRCServer;
 		};
-		8F4C732F1C62DF3000B8313A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F4C73201C62DF2800B8313A /* Caramel.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1EFC5A461B2BA86F00CC11E4;
-			remoteInfo = Caramel;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F076B391C63EBBD0082E8D3 /* Wifts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wifts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F076B3B1C63EBBD0082E8D3 /* Wifts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wifts.h; sourceTree = "<group>"; };
+		8F076B3D1C63EBBD0082E8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F076B421C63EBBD0082E8D3 /* WiftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiftsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F076B471C63EBBD0082E8D3 /* WiftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiftsTests.swift; sourceTree = "<group>"; };
+		8F076B491C63EBBD0082E8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F4C72F91C62DB3500B8313A /* Caramel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Caramel.framework; path = ../Caramel/Xcode/build/Debug/Caramel.framework; sourceTree = "<group>"; };
 		8F4C72FE1C62DBAD00B8313A /* WiftsServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiftsServer.swift; sourceTree = "<group>"; };
-		8F4C73171C62DF1400B8313A /* libWifts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWifts.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F4C73191C62DF1400B8313A /* Wifts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wifts.h; sourceTree = "<group>"; };
 		8F4C731B1C62DF1400B8313A /* Wifts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wifts.m; sourceTree = "<group>"; };
 		8F4C73201C62DF2800B8313A /* Caramel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Caramel.xcodeproj; path = ../Caramel/Xcode/Caramel.xcodeproj; sourceTree = "<group>"; };
 		8F9EFC431C62D88A00450266 /* Wifts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wifts.h; sourceTree = "<group>"; };
 		8F9EFC451C62D88A00450266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F9EFC4A1C62D88A00450266 /* WiftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiftsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9EFC511C62D88A00450266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9EFC5A1C62D98F00450266 /* WiftsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiftsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F4C73141C62DF1400B8313A /* Frameworks */ = {
+		8F076B351C63EBBD0082E8D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F4C73311C62DF3400B8313A /* Caramel.framework in Frameworks */,
+				8F076B501C63EBDC0082E8D3 /* Caramel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F9EFC471C62D88A00450266 /* Frameworks */ = {
+		8F076B3F1C63EBBD0082E8D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F076B431C63EBBD0082E8D3 /* Wifts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F076B3A1C63EBBD0082E8D3 /* Wifts */ = {
+			isa = PBXGroup;
+			children = (
+				8F076B3B1C63EBBD0082E8D3 /* Wifts.h */,
+				8F076B3D1C63EBBD0082E8D3 /* Info.plist */,
+			);
+			path = Wifts;
+			sourceTree = "<group>";
+		};
+		8F076B461C63EBBD0082E8D3 /* WiftsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F076B471C63EBBD0082E8D3 /* WiftsTests.swift */,
+				8F076B491C63EBBD0082E8D3 /* Info.plist */,
+			);
+			path = WiftsTests;
+			sourceTree = "<group>";
+		};
 		8F4C72FD1C62DB7B00B8313A /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +145,8 @@
 				8F9EFC421C62D88A00450266 /* Wifts */,
 				8F9EFC4E1C62D88A00450266 /* WiftsTests */,
 				8F4C73181C62DF1400B8313A /* Wifts */,
+				8F076B3A1C63EBBD0082E8D3 /* Wifts */,
+				8F076B461C63EBBD0082E8D3 /* WiftsTests */,
 				8F9EFC411C62D88A00450266 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,8 +154,8 @@
 		8F9EFC411C62D88A00450266 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F9EFC4A1C62D88A00450266 /* WiftsTests.xctest */,
-				8F4C73171C62DF1400B8313A /* libWifts.a */,
+				8F076B391C63EBBD0082E8D3 /* Wifts.framework */,
+				8F076B421C63EBBD0082E8D3 /* WiftsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,50 +183,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8F4C73151C62DF1400B8313A /* Headers */ = {
+		8F076B361C63EBBD0082E8D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F4C731A1C62DF1400B8313A /* Wifts.h in Headers */,
+				8F076B3C1C63EBBD0082E8D3 /* Wifts.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8F4C73161C62DF1400B8313A /* Wifts */ = {
+		8F076B381C63EBBD0082E8D3 /* Wifts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F4C731D1C62DF1400B8313A /* Build configuration list for PBXNativeTarget "Wifts" */;
+			buildConfigurationList = 8F076B4A1C63EBBD0082E8D3 /* Build configuration list for PBXNativeTarget "Wifts" */;
 			buildPhases = (
-				8F4C73131C62DF1400B8313A /* Sources */,
-				8F4C73141C62DF1400B8313A /* Frameworks */,
-				8F4C73151C62DF1400B8313A /* Headers */,
+				8F076B341C63EBBD0082E8D3 /* Sources */,
+				8F076B351C63EBBD0082E8D3 /* Frameworks */,
+				8F076B361C63EBBD0082E8D3 /* Headers */,
+				8F076B371C63EBBD0082E8D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F4C73301C62DF3000B8313A /* PBXTargetDependency */,
 			);
 			name = Wifts;
 			productName = Wifts;
-			productReference = 8F4C73171C62DF1400B8313A /* libWifts.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 8F076B391C63EBBD0082E8D3 /* Wifts.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		8F9EFC491C62D88A00450266 /* WiftsTests */ = {
+		8F076B411C63EBBD0082E8D3 /* WiftsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F9EFC571C62D88A00450266 /* Build configuration list for PBXNativeTarget "WiftsTests" */;
+			buildConfigurationList = 8F076B4D1C63EBBD0082E8D3 /* Build configuration list for PBXNativeTarget "WiftsTests" */;
 			buildPhases = (
-				8F9EFC461C62D88A00450266 /* Sources */,
-				8F9EFC471C62D88A00450266 /* Frameworks */,
-				8F9EFC481C62D88A00450266 /* Resources */,
+				8F076B3E1C63EBBD0082E8D3 /* Sources */,
+				8F076B3F1C63EBBD0082E8D3 /* Frameworks */,
+				8F076B401C63EBBD0082E8D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8F076B451C63EBBD0082E8D3 /* PBXTargetDependency */,
 			);
 			name = WiftsTests;
 			productName = WiftsTests;
-			productReference = 8F9EFC4A1C62D88A00450266 /* WiftsTests.xctest */;
+			productReference = 8F076B421C63EBBD0082E8D3 /* WiftsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -214,10 +239,10 @@
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
-					8F4C73161C62DF1400B8313A = {
+					8F076B381C63EBBD0082E8D3 = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					8F9EFC491C62D88A00450266 = {
+					8F076B411C63EBBD0082E8D3 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -240,8 +265,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				8F4C73161C62DF1400B8313A /* Wifts */,
-				8F9EFC491C62D88A00450266 /* WiftsTests */,
+				8F076B381C63EBBD0082E8D3 /* Wifts */,
+				8F076B411C63EBBD0082E8D3 /* WiftsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,56 +303,103 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8F9EFC481C62D88A00450266 /* Resources */ = {
+		8F076B371C63EBBD0082E8D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9EFC5C1C62D99300450266 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F076B401C63EBBD0082E8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F4C73131C62DF1400B8313A /* Sources */ = {
+		8F076B341C63EBBD0082E8D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F4C731C1C62DF1400B8313A /* Wifts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F9EFC461C62D88A00450266 /* Sources */ = {
+		8F076B3E1C63EBBD0082E8D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9EFC5B1C62D98F00450266 /* WiftsTests.swift in Sources */,
+				8F076B481C63EBBD0082E8D3 /* WiftsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8F4C73301C62DF3000B8313A /* PBXTargetDependency */ = {
+		8F076B451C63EBBD0082E8D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Caramel;
-			targetProxy = 8F4C732F1C62DF3000B8313A /* PBXContainerItemProxy */;
+			target = 8F076B381C63EBBD0082E8D3 /* Wifts */;
+			targetProxy = 8F076B441C63EBBD0082E8D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8F4C731E1C62DF1400B8313A /* Debug */ = {
+		8F076B4B1C63EBBD0082E8D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Wifts/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yifei.Wifts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8F076B4C1C63EBBD0082E8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Wifts/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yifei.Wifts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F076B4E1C63EBBD0082E8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WiftsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yifei.WiftsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		8F4C731F1C62DF1400B8313A /* Release */ = {
+		8F076B4F1C63EBBD0082E8D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WiftsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yifei.WiftsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,39 +490,22 @@
 			};
 			name = Release;
 		};
-		8F9EFC581C62D88A00450266 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ../WiftsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Yifei.WiftsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		8F9EFC591C62D88A00450266 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ../WiftsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Yifei.WiftsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F4C731D1C62DF1400B8313A /* Build configuration list for PBXNativeTarget "Wifts" */ = {
+		8F076B4A1C63EBBD0082E8D3 /* Build configuration list for PBXNativeTarget "Wifts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F4C731E1C62DF1400B8313A /* Debug */,
-				8F4C731F1C62DF1400B8313A /* Release */,
+				8F076B4B1C63EBBD0082E8D3 /* Debug */,
+				8F076B4C1C63EBBD0082E8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F076B4D1C63EBBD0082E8D3 /* Build configuration list for PBXNativeTarget "WiftsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F076B4E1C63EBBD0082E8D3 /* Debug */,
+				8F076B4F1C63EBBD0082E8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -459,15 +514,6 @@
 			buildConfigurations = (
 				8F9EFC521C62D88A00450266 /* Debug */,
 				8F9EFC531C62D88A00450266 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F9EFC571C62D88A00450266 /* Build configuration list for PBXNativeTarget "WiftsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F9EFC581C62D88A00450266 /* Debug */,
-				8F9EFC591C62D88A00450266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
