@@ -6,3 +6,8 @@
 //  Copyright © 2016 Yifei Teng. All rights reserved.
 //
 
+import Caramel
+
+func startServer() {
+    EventLoop.defaultLoop.run()
+}

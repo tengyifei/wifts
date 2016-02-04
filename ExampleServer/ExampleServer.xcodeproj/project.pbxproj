@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F03D7111C4695DA00962A82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03D7101C4695DA00962A82 /* main.swift */; };
+		8F4C730D1C62DDCA00B8313A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C730C1C62DDCA00B8313A /* main.swift */; };
+		8F4C73331C62DF4000B8313A /* libWifts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4C73321C62DF4000B8313A /* libWifts.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8F03D70B1C4695DA00962A82 /* CopyFiles */ = {
+		8F4C73071C62DDCA00B8313A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,110 +24,113 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8F03D70D1C4695DA00962A82 /* Wifts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Wifts; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F03D7101C4695DA00962A82 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8F4C73091C62DDCA00B8313A /* ExampleServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExampleServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4C730C1C62DDCA00B8313A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8F4C73321C62DF4000B8313A /* libWifts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWifts.a; path = ../Xcode/build/Debug/libWifts.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F03D70A1C4695DA00962A82 /* Frameworks */ = {
+		8F4C73061C62DDCA00B8313A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4C73331C62DF4000B8313A /* libWifts.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F03D7041C4695DA00962A82 = {
+		8F4C73001C62DDCA00B8313A = {
 			isa = PBXGroup;
 			children = (
-				8F03D70F1C4695DA00962A82 /* Wifts */,
-				8F03D70E1C4695DA00962A82 /* Products */,
+				8F4C73321C62DF4000B8313A /* libWifts.a */,
+				8F4C730B1C62DDCA00B8313A /* ExampleServer */,
+				8F4C730A1C62DDCA00B8313A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8F03D70E1C4695DA00962A82 /* Products */ = {
+		8F4C730A1C62DDCA00B8313A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F03D70D1C4695DA00962A82 /* Wifts */,
+				8F4C73091C62DDCA00B8313A /* ExampleServer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F03D70F1C4695DA00962A82 /* Wifts */ = {
+		8F4C730B1C62DDCA00B8313A /* ExampleServer */ = {
 			isa = PBXGroup;
 			children = (
-				8F03D7101C4695DA00962A82 /* main.swift */,
+				8F4C730C1C62DDCA00B8313A /* main.swift */,
 			);
-			path = Wifts;
+			path = ExampleServer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F03D70C1C4695DA00962A82 /* Wifts */ = {
+		8F4C73081C62DDCA00B8313A /* ExampleServer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F03D7141C4695DA00962A82 /* Build configuration list for PBXNativeTarget "Wifts" */;
+			buildConfigurationList = 8F4C73101C62DDCA00B8313A /* Build configuration list for PBXNativeTarget "ExampleServer" */;
 			buildPhases = (
-				8F03D7091C4695DA00962A82 /* Sources */,
-				8F03D70A1C4695DA00962A82 /* Frameworks */,
-				8F03D70B1C4695DA00962A82 /* CopyFiles */,
+				8F4C73051C62DDCA00B8313A /* Sources */,
+				8F4C73061C62DDCA00B8313A /* Frameworks */,
+				8F4C73071C62DDCA00B8313A /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Wifts;
-			productName = Wifts;
-			productReference = 8F03D70D1C4695DA00962A82 /* Wifts */;
+			name = ExampleServer;
+			productName = ExampleServer;
+			productReference = 8F4C73091C62DDCA00B8313A /* ExampleServer */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8F03D7051C4695DA00962A82 /* Project object */ = {
+		8F4C73011C62DDCA00B8313A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Yifei Teng";
 				TargetAttributes = {
-					8F03D70C1C4695DA00962A82 = {
+					8F4C73081C62DDCA00B8313A = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 8F03D7081C4695DA00962A82 /* Build configuration list for PBXProject "Wifts" */;
+			buildConfigurationList = 8F4C73041C62DDCA00B8313A /* Build configuration list for PBXProject "ExampleServer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8F03D7041C4695DA00962A82;
-			productRefGroup = 8F03D70E1C4695DA00962A82 /* Products */;
+			mainGroup = 8F4C73001C62DDCA00B8313A;
+			productRefGroup = 8F4C730A1C62DDCA00B8313A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F03D70C1C4695DA00962A82 /* Wifts */,
+				8F4C73081C62DDCA00B8313A /* ExampleServer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F03D7091C4695DA00962A82 /* Sources */ = {
+		8F4C73051C62DDCA00B8313A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F03D7111C4695DA00962A82 /* main.swift in Sources */,
+				8F4C730D1C62DDCA00B8313A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8F03D7121C4695DA00962A82 /* Debug */ = {
+		8F4C730E1C62DDCA00B8313A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -170,7 +174,7 @@
 			};
 			name = Debug;
 		};
-		8F03D7131C4695DA00962A82 /* Release */ = {
+		8F4C730F1C62DDCA00B8313A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,14 +210,14 @@
 			};
 			name = Release;
 		};
-		8F03D7151C4695DA00962A82 /* Debug */ = {
+		8F4C73111C62DDCA00B8313A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		8F03D7161C4695DA00962A82 /* Release */ = {
+		8F4C73121C62DDCA00B8313A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -223,24 +227,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F03D7081C4695DA00962A82 /* Build configuration list for PBXProject "Wifts" */ = {
+		8F4C73041C62DDCA00B8313A /* Build configuration list for PBXProject "ExampleServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F03D7121C4695DA00962A82 /* Debug */,
-				8F03D7131C4695DA00962A82 /* Release */,
+				8F4C730E1C62DDCA00B8313A /* Debug */,
+				8F4C730F1C62DDCA00B8313A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F03D7141C4695DA00962A82 /* Build configuration list for PBXNativeTarget "Wifts" */ = {
+		8F4C73101C62DDCA00B8313A /* Build configuration list for PBXNativeTarget "ExampleServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F03D7151C4695DA00962A82 /* Debug */,
-				8F03D7161C4695DA00962A82 /* Release */,
+				8F4C73111C62DDCA00B8313A /* Debug */,
+				8F4C73121C62DDCA00B8313A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8F03D7051C4695DA00962A82 /* Project object */;
+	rootObject = 8F4C73011C62DDCA00B8313A /* Project object */;
 }
