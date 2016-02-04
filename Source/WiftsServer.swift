@@ -8,6 +8,6 @@
 
 import Caramel
 
-func startServer() {
+public func startServer() {
     EventLoop.defaultLoop.run()
 }

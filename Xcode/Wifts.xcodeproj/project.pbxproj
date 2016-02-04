@@ -11,6 +11,7 @@
 		8F076B431C63EBBD0082E8D3 /* Wifts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F076B391C63EBBD0082E8D3 /* Wifts.framework */; };
 		8F076B481C63EBBD0082E8D3 /* WiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F076B471C63EBBD0082E8D3 /* WiftsTests.swift */; };
 		8F076B501C63EBDC0082E8D3 /* Caramel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4C73281C62DF2800B8313A /* Caramel.framework */; };
+		8F076B5D1C63F3610082E8D3 /* WiftsServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C72FE1C62DBAD00B8313A /* WiftsServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F076B5D1C63F3610082E8D3 /* WiftsServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +502,7 @@
 				8F076B4C1C63EBBD0082E8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F076B4D1C63EBBD0082E8D3 /* Build configuration list for PBXNativeTarget "WiftsTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +511,7 @@
 				8F076B4F1C63EBBD0082E8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F9EFC3A1C62D88A00450266 /* Build configuration list for PBXProject "Wifts" */ = {
 			isa = XCConfigurationList;
