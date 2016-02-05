@@ -8,6 +8,7 @@
 
 import Cocoa
 import Wifts
+import Caramel
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -17,7 +18,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         print("Before")
-        startServer()
+        let server = HTTPServer(host: "localhost", port: 8081)
+        try! server.start()
+        EventLoop.defaultLoop.run()
         print("After")
     }
 

@@ -12,6 +12,7 @@
 		8F076B481C63EBBD0082E8D3 /* WiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F076B471C63EBBD0082E8D3 /* WiftsTests.swift */; };
 		8F076B501C63EBDC0082E8D3 /* Caramel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4C73281C62DF2800B8313A /* Caramel.framework */; };
 		8F076B5D1C63F3610082E8D3 /* WiftsServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C72FE1C62DBAD00B8313A /* WiftsServer.swift */; };
+		8F076B951C64136D0082E8D3 /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F076B941C64136D0082E8D3 /* HTTPServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8F076B421C63EBBD0082E8D3 /* WiftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiftsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F076B471C63EBBD0082E8D3 /* WiftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiftsTests.swift; sourceTree = "<group>"; };
 		8F076B491C63EBBD0082E8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F076B941C64136D0082E8D3 /* HTTPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
 		8F4C72F91C62DB3500B8313A /* Caramel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Caramel.framework; path = ../Caramel/Xcode/build/Debug/Caramel.framework; sourceTree = "<group>"; };
 		8F4C72FE1C62DBAD00B8313A /* WiftsServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiftsServer.swift; sourceTree = "<group>"; };
 		8F4C73191C62DF1400B8313A /* Wifts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wifts.h; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				8F4C72FE1C62DBAD00B8313A /* WiftsServer.swift */,
+				8F076B941C64136D0082E8D3 /* HTTPServer.swift */,
 			);
 			name = Source;
 			path = ../Source;
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F076B951C64136D0082E8D3 /* HTTPServer.swift in Sources */,
 				8F076B5D1C63F3610082E8D3 /* WiftsServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
